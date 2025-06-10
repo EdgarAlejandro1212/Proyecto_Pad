@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Madrid Pokedex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .titulo_index {
+      font-family: "Staatliches", sans-serif;
+      font-size: 3.5rem;
+      margin: 0;
+    }
+
+    .contenedor__cartas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 80px;
+      padding: 60px 0;
+    }
+
+    .card {
+      width: 380px;
+      height: 380px;
+      border: 6px solid #b39ddb;
+      background-color: #ffffff;
+      text-align: center;
+      border-radius: 50%;
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    }
+
+    .card__circle {
+      width: 220px;
+      height: 220px;
+      overflow: hidden;
+      border-radius: 30px;
+      margin-bottom: 15px;
+    }
+
+    .figure__imgPokemon {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .card__titulos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 8px;
+      gap: 10px;
+    }
+
+    .card__numero {
+      background-color: #6a1b9a;
+      width: 55px;
+      height: 28px;
+      border-radius: 6px;
+      color: white;
+      font-family: "Staatliches", sans-serif;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card__nombrePokemon {
+      font-family: "Staatliches", sans-serif;
+      font-size: 2rem;
+      color: #1a237e;
+    }
+
+    .card_tipo1,
+    .card_tipo2 {
+      width: 110px;
+      padding: 7px;
+      font-family: "Staatliches", sans-serif;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    .card_tipo1 {
+      background-color: #d1c4e9;
+      color: #311b92;
+    }
+
+    .card_tipo2 {
+      background-color: #c5cae9;
+      color: #1a237e;
+    }
+
+    .boton-regresar {
+      padding: 10px 25px;
+      font-size: 1rem;
+      border-radius: 12px;
+      background-color: #7e57c2;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 14px;
+      transition: background-color 0.3s ease;
+    }
+
+    .boton-regresar:hover {
+      background-color: #5e35b1;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .footer__piePagina {
+      margin: 0;
+      font-family: "Staatliches", sans-serif;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="titulo_index">Madrid Pokedex</h1>
+  </header>
+
+  <main class="contenedor__cartas">
+    <!-- Jugador 1 -->
+    <article class="card">
+      <figure class="card__circle">
+        <img src="modruc.jpeg" alt="Modric" class="figure__imgPokemon">
+      </figure>
+      <div class="card__titulos">
+        <p class="card__numero">5</p>
+        <h3 class="card__nombrePokemon">MODRIC</h3>
+      </div>
+      <div class="card__titulos">
+        <p class="card_tipo1">CROATA</p>
+        <p class="card_tipo2">MEDIO</p>
+      </div>
+      <a href="modric.html"><button class="boton-regresar">Ver más</button></a>
+    </article>
+
+    <!-- Jugador 2 -->
+    <article class="card">
+      <figure class="card__circle">
+        <img src="vini-jr.jpg" alt="Vinícius" class="figure__imgPokemon">
+      </figure>
+      <div class="card__titulos">
+        <p class="card__numero">7</p>
+        <h3 class="card__nombrePokemon">VINÍCIUS</h3>
+      </div>
+      <div class="card__titulos">
+        <p class="card_tipo1">BRASILEÑO</p>
+        <p class="card_tipo2">DELANTERO</p>
+      </div>
+      <a href="vinicius.html"><button class="boton-regresar">Ver más</button></a>
+    </article>
+
+    <!-- Jugador 3 -->
+    <article class="card">
+      <figure class="card__circle">
+        <img src="images.webp" alt="Courtois" class="figure__imgPokemon">
+      </figure>
+      <div class="card__titulos">
+        <p class="card__numero">1</p>
+        <h3 class="card__nombrePokemon">COURTOIS</h3>
+      </div>
+      <div class="card__titulos">
+        <p class="card_tipo1">BELGA</p>
+        <p class="card_tipo2">PORTERO</p>
+      </div>
+      <a href="courtois.html"><button class="boton-regresar">Ver más</button></a>
+    </article>
+
+    <!-- Jugador 4 -->
+    <article class="card">
+      <figure class="card__circle">
+        <img src="licensed-image.jpeg" alt="Rüdiger" class="figure__imgPokemon">
+      </figure>
+      <div class="card__titulos">
+        <p class="card__numero">22</p>
+        <h3 class="card__nombrePokemon">RÜDIGER</h3>
+      </div>
+      <div class="card__titulos">
+        <p class="card_tipo1">ALEMÁN</p>
+        <p class="card_tipo2">DEFENSA</p>
+      </div>
+      <a href="rudiger.html"><button class="boton-regresar">Ver más</button></a>
+    </article>
+
+    <!-- Jugador 5 -->
+    <article class="card">
+      <figure class="card__circle">
+        <img src="f.elconfidencial.com_original_e6c_cb9_0d5_e6ccb90d516e49485b0accded601e3a9.jpg" alt="Mendy" class="figure__imgPokemon">
+      </figure>
+      <div class="card__titulos">
+        <p class="card__numero">23</p>
+        <h3 class="card__nombrePokemon">Valverde</h3>
+      </div>
+      <div class="card__titulos">
+        <p class="card_tipo1">URUGUAYO</p>
+        <p class="card_tipo2">DEFENSA</p>
+      </div>
+      <a href="mendy.html"><button class="boton-regresar">Ver más</button></a>
+    </article>
+
+    <!-- Jugador 6 -->
+    <article class="card">
+      <figure class="card__circle">
+        <img src="images.jpeg" alt="Mbappé" class="figure__imgPokemon">
+      </figure>
+      <div class="card__titulos">
+        <p class="card__numero">10</p>
+        <h3 class="card__nombrePokemon">MBAPPÉ</h3>
+      </div>
+      <div class="card__titulos">
+        <p class="card_tipo1">FRANCÉS</p>
+        <p class="card_tipo2">DELANTERO</p>
+      </div>
+      <a href="mbappe.html"><button class="boton-regresar">Ver más</button></a>
+    </article>
+  </main>
+
+  <footer>
+    <h4 class="footer__piePagina"> Hecho por Edgar Alejandro 💜⚽ &#128511;</h4>
+  </footer>
+
+</body>
+</html>

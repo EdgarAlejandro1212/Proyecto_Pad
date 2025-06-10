@@ -1,0 +1,98 @@
+.card {
+  width: 300px;
+  height: 300px;
+  border: 4px solid rgb(90, 90, 90);
+  background-color: rgb(242, 242, 242);
+  text-align: center;
+  border-radius: 50%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__circle {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 20px; /* imagen cuadrada con bordes suaves */
+  margin-bottom: 10px;
+}
+
+.figure__imgPokemon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__titulos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.card__numero {
+  margin: 0 5px 0 0;
+  background-color: rgb(149, 0, 255);
+  width: 40px;
+  height: 20px;
+  border-radius: 5px;
+  color: white;
+  font-family:"Staatliches", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__nombrePokemon {
+  font-family: "Staatliches", sans-serif;
+  font-size: 1.5rem;
+}
+
+.card_tipo1,
+.card_tipo2 {
+  width: 90px;
+  padding: 5px;
+  font-family:"Staatliches", sans-serif;
+  border-radius: 10px;
+  margin: 0 5px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.card_tipo1 {
+  background-color: rgb(234, 255, 0);
+  color: black;
+}
+
+.card_tipo2 {
+  background-color: rgb(10, 6, 250);
+  color: white;
+}
+
+.contenedor__cartas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  margin: 100px 0 50px 0;
+}
+
+.boton-regresar {
+  padding: 8px 18px;
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color: #00ff26;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.boton-regresar:hover {
+  background-color: #ff0000;
+}
