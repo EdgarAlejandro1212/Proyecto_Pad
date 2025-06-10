@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Madrid Pokedex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Staatliches', sans-serif;
+      background-color: #ffffff;
+      color: #000;
+    }
+
+    header {
+      background-color: #4b0082;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 2.5rem;
+    }
+
+    .main-container {
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+      gap: 40px;
+    }
+
+    .left {
+      width: 300px;
+      text-align: center;
+    }
+
+    .left h2 {
+      font-size: 1.8rem;
+      color: #0b132b;
+    }
+
+    .left img {
+      margin-top: 10px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #d4af37;
+    }
+
+    .card {
+      background-color: #f4f4f4;
+      border-left: 6px solid #4b0082;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .card h3 {
+      color: #4b0082;
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+    }
+
+    .card ul {
+      padding-left: 20px;
+    }
+
+    .card li {
+      margin-bottom: 8px;
+    }
+
+    .right {
+      width: 400px;
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .debilidades {
+      width: 70%;
+      background-color: #f4f4f4;
+      border-left: 6px solid #4b0082;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: left;
+    }
+
+    .debilidades h3 {
+      color: #4b0082;
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+    }
+
+    footer {
+      margin-top: 50px;
+      background-color: #0b132b;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>Madrid Pokedex</header>
+
+<div class="main-container">
+
+  <!-- Columna Izquierda -->
+  <div class="left">
+    <h2>Thibaut Courtois</h2>
+    <img src="images.webp" alt="Luka Modric">
+    
+    <div class="card">
+      <h3>Datos interesantes</h3>
+      <p>Thibaut Courtois, uno de los mejores porteros del mundo, comenzó su carrera como lateral izquierdo antes de ser reconvertido a portero. Debutó profesionalmente con solo 16 años en el Genk y fue clave en el Atlético de Madrid antes de llegar al Real Madrid. Habla cinco idiomas (neerlandés, francés, inglés, español y alemán) y es fanático de los videojuegos y la Fórmula 1. En la final de Champions 2022 fue el MVP indiscutido, con 9 paradas cruciales frente al Liverpool. Su impresionante estatura (2,00 m) le da una ventaja notable bajo palos, y es apodado por muchos madridistas como "El Muro".</p>
+    </div>
+  </div>
+
+  <!-- Columna Derecha -->
+  <div class="right">
+    <div class="card">
+      <h3>Características</h3>
+      <ul>
+        <li>Reflejos espectaculares</li>
+        <li>Dominio del juego aéreo</li>
+        <li>Colocación y lectura del juego</li>
+        <li>Seguridad en mano a mano</li>
+      </ul>
+      
+      
+    </div>
+
+    <div class="card">
+      <h3>Logros</h3>
+      <ul>
+        <li>Ligas: 3</li>
+        <li>Copa del Rey: 1</li>
+        <li>Supercopa de España: 2</li>
+        <li>Champions League: 2</li>
+        <li>Supercopa de Europa: 2</li>
+        <li>Mundial de Clubes: 2</li>
+      </ul>
+      
+      
+    </div>
+  </div>
+</div>
+
+<!-- Debilidades al centro -->
+<div class="bottom">
+  <div class="debilidades">
+    <h3>Debilidades</h3>
+    <ul>
+        <li>Juego con los pies limitado</li>
+        <li>Lesiones recientes</li>
+        <li>Salidas arriesgadas ocasionales</li>
+        <li>Dificultades contra lanzamientos muy ajustados</li>
+      </ul>
+      
+      
+  </div>
+</div>
+<a href="index.html">
+  <button class="boton-regresar">Regresar</button>
+</a>
+<footer>
+  Hecho por Edgar Alejandro 💜⚽
+</footer>
+
+</body>
+</html>

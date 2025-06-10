@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Madrid Pokedex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Staatliches', sans-serif;
+      background-color: #ffffff;
+      color: #000;
+    }
+
+    header {
+      background-color: #4b0082;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 2.5rem;
+    }
+
+    .main-container {
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+      gap: 40px;
+    }
+
+    .left {
+      width: 300px;
+      text-align: center;
+    }
+
+    .left h2 {
+      font-size: 1.8rem;
+      color: #0b132b;
+    }
+
+    .left img {
+      margin-top: 10px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #d4af37;
+    }
+
+    .card {
+      background-color: #f4f4f4;
+      border-left: 6px solid #4b0082;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .card h3 {
+      color: #4b0082;
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+    }
+
+    .card ul {
+      padding-left: 20px;
+    }
+
+    .card li {
+      margin-bottom: 8px;
+    }
+
+    .right {
+      width: 400px;
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .debilidades {
+      width: 70%;
+      background-color: #f4f4f4;
+      border-left: 6px solid #4b0082;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: left;
+    }
+
+    .debilidades h3 {
+      color: #4b0082;
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+    }
+
+    footer {
+      margin-top: 50px;
+      background-color: #0b132b;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>Madrid Pokedex</header>
+
+<div class="main-container">
+
+  <!-- Columna Izquierda -->
+  <div class="left">
+    <h2>Luka Modric</h2>
+    <img src="modruc.jpeg" alt="Luka Modric">
+    
+    <div class="card">
+      <h3>Datos interesantes</h3>
+      <p>Es un futbolista croata reconocido por su habilidad técnica y su capacidad para regatear. Actualmente juega como mediocampista del Real Madrid y es una figura histórica del club.</p>
+    </div>
+  </div>
+
+  <!-- Columna Derecha -->
+  <div class="right">
+    <div class="card">
+      <h3>Características</h3>
+      <ul>
+        <li>Habilidad técnica</li>
+        <li>Agilidad y velocidad</li>
+        <li>Creatividad y visión de juego</li>
+        <li>Definición y gol</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Logros</h3>
+      <ul>
+        <li>Ligas: 6</li>
+        <li>Copa del Rey: 3</li>
+        <li>Supercopa de España: 2</li>
+        <li>Supercopa de Europa: 5</li>
+        <li>Mundial de Clubes: 3</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Debilidades al centro -->
+<div class="bottom">
+  <div class="debilidades">
+    <h3>Debilidades</h3>
+    <ul>
+      <li>Falta de altura</li>
+      <li>Resistencia</li>
+      <li>Tendencia a simular faltas</li>
+      <li>Fragilidad física</li>
+    </ul>
+  </div>
+</div>
+<a href="index.html">
+  <button class="boton-regresar">Regresar</button>
+</a>
+<footer>
+  Hecho por Edgar Alejandro 💜⚽
+</footer>
+
+</body>
+</html>
